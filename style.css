@@ -1,0 +1,45 @@
+.mainDiv {
+  position: relative;
+  width: max-content;
+  height: 100px;
+  margin-left: 32%;
+  margin-top: 40%;
+  color: black;
+}
+
+.square {
+  width: 359px;
+  height: max-content;
+  top: -10px;
+  border: solid 2px #FFF;
+  float: left;
+  transform: skew(180deg, 210deg);
+  position: absolute;
+  right: -102px;
+}
+
+.square2 {
+  width:300px;
+  height: max-content;
+  border: solid 2px #FFF;
+  float: left;
+  transform: skew(180deg, 150deg);
+  position: absolute;
+  left: 102px;
+  top:10px;
+}
+
+.square3 {
+  width: 350px;
+  height: 230px;
+  float: left;
+  transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+  position: absolute;
+  left: -62px;
+  right: 145px;
+  top: -140px;
+}
+
+p{
+  font-size: small;
+}
